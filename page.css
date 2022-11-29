@@ -1,0 +1,120 @@
+#wrapper {
+	background: #efefef !important;
+}
+
+#developer p.boldsect { font-weight: bold; margin-top: 20px;}
+#developer .content_holder h1 { font-size: 2em; }
+#developer .content_holder h2 { font-size: 1.5em; }
+#developer p.date {font-size: 10px; text-align: right; margin-top: 20px; }
+
+#developer code {
+	display: block;
+	margin: 1em 0;
+	font: 12px 'Courier',monospace;
+	background-color: #EEE;
+	border: 1px solid #DDD;
+	padding: 5px;
+	color: #444;
+	overflow: auto;
+	white-space: pre;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.07) 0 1px 2px inset;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+}
+
+#developer table {
+	border-collapse: collapse;
+}
+
+#developer-menu {
+	/*border-right: 3px solid #333333;*/
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-right: 20px;
+	vertical-align: top;
+	padding-bottom: 50px;
+	width: 238px;
+}
+
+#developer-menu a {
+	display: block;
+	text-decoration: none;
+	font-size: 1em;
+	margin-bottom: 0.6em;
+	color: #333333;
+}
+
+#developer-menu a.this {
+	color: #0C8DC5;
+}
+
+#developer-menu a.method {
+	/*font-family: Monaco, "Andale Mono", "Courier new", monospace;*/
+	font-weight: normal;
+}
+
+#developer-menu a.selected {
+	color: #0c8dc5;
+}
+
+#developer-menu a:hover {
+	color: #0c8dc5;
+}
+
+#developer a.method {
+	/*font-family: Monaco, "Andale Mono", "Courier new", monospace;
+	font-weight: normal;*/
+	color: #333333;
+	/*text-decoration: underline; */
+}
+
+#developer a.method:hover {
+	color: #0c8dc5;
+}
+
+#developer a.method:active {
+	color: #0c8dc5;
+}
+
+#developer-menu > a:last-of-type {
+	margin-bottom: 1.5em;
+}
+
+#developer .content_holder {
+	padding-left: 20px;
+	padding-top: 10px;
+	vertical-align: top;
+	max-width: 687px;
+	padding-bottom: 50px;
+	padding-right: 0px;
+}
+
+#developer-menu h2 {
+	font-size: 0.9em;
+	line-height: 1.1em;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-weight: normal;
+	color: #999999;
+	border-bottom: 1px solid #999999; 
+	margin-top: 1.4em;
+}
+
+#developer-menu h1 {
+	font-size: 1.1em;
+	margin-left: -10px
+}
+
+img.example {
+	margin: 10px 20px 20px;
+	width: 600px;
+}
+
+ul.example {
+	font-weight: normal;
+	list-style: disc;
+	list-style-position: inside;
+	margin-left: 3em;
+	text-indent: -1em;
+}
