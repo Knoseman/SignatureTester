@@ -9,7 +9,8 @@
       <p>JSON-data:</p>
       <form action="signaturetester.php" target="serialize_result" method="POST">
         <textarea name="serialize" style="width: 100%; height: 120px;">{"Username":"merchant_username","Password":"merchant_password","NotificationURL":"URL_to_your_notification_service","EndUserID":"12345","MessageID":"your_unique_deposit_id","Attributes":{"Locale":"sv_SE","Currency":"SEK","IP":"123.123.123.123","MobilePhone":"+46709876543","Firstname":"John","Lastname":"Doe","NationalIdentificationNumber":"790131-1234"}}</textarea>
-        <input type="submit" value="Show serialization result" />
+        <br /><br />
+        <input type="submit" value="Show serialization result"  class="btn" />
       </form>
       <br />
       Result:<br/>
@@ -25,7 +26,7 @@
         Method: <input type="text" name="method" value="Deposit" />
         UUID: <input type="text" name="uuid" style="width: 300px;" value="258a2184-2842-b485-25ca-293525152425" />
         </p>
-        <input type="submit" value="Show signed result" />
+        <input type="submit" value="Show signed result" class="btn" />
       </form>
       <br/>
       <p>
